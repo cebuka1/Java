@@ -15,4 +15,16 @@ class SimpleCalculatorTest {
 
         assertEquals(4, actual);
     }
+
+    @Test
+    void itShouldPrintHelloWorld(){
+        SimpleCalculator cal = new SimpleCalculator();
+
+        String actual = cal.hello();
+        String expected = "Hello World";
+
+        assertEquals(actual, expected);
+
+
+    }
 }
