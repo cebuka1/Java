@@ -1,6 +1,7 @@
 package class_activity_5A;
 
 import org.junit.jupiter.api.Test;
+import week_3.class_test_1.class_activity_5A.SimpleCalculator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
